@@ -98,6 +98,10 @@ public class Test {
 			System.out.println(listItr.next());
 		}
 		
+		System.out.println("\n *********************************Using For Each********************************************************");
+		
+		listOfName.stream().forEachOrdered(t -> System.out.println(t) );
+		
 	}
 
 }
